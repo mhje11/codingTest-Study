@@ -6,6 +6,8 @@ import java.io.InputStreamReader;
 import java.util.Stack;
 
 public class S_4_10828 {
+    // 풀면서 어려웠던점 : 간단한 스택 구현이라 크게 어려운 점은 없었다. 스택 구현을 해본적이 없었다면 배열을 사용해서 풀어봤을듯 하다.
+    // 그나마 어려웠던 부분이라 해도 push 이후 정수를 어떻게 받아 낼것인지 여러 방법이 있지만 String.split() 을 이용했다.
     public static Stack<Integer> stack = new Stack<>();
 
     public static void main(String[] args) throws IOException {
