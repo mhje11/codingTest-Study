@@ -1,4 +1,4 @@
-package Stack.Younggyue;
+package stack.Younggyue;
 
 import java.io.BufferedReader;
 import java.io.IOException;
