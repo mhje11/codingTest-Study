@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 
 public class G_3_1600 {
     //어려웠던점 : K번의 횟수를 어떻게 사용할것인가 무조건 먼저써야한다 생각했었음 하지만 dp문제의 경우를 따지는것 처럼
-    //visited 배열을 3차원으로 생성해서 해당 지점을 몇번쨰 k의 사용으로 왔는지 확인하면 됨
+    //visited 배열을 3차원으로 생성해서 해당 지점을 몇번째 k의 사용으로 왔는지 확인하면 됨
     public static int K;
     public static int W;
     public static int H;
