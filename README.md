@@ -1,7 +1,7 @@
 # CodingTest-Study
 
 ## 👥 조원
-- [Heejin Im]()
+- [Heejin Im](https://github.com/xeexin)
 - [Yeonggyue Im](https://github.com/mhje11)
 - 
 ## 📆 스터디 진행 방식
