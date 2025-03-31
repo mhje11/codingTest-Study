@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class G_5_1759 {
+    //어려웠던점 : 어려웠다기보다는 자음 체크하는 로직을 잘못짜서 오답이 나왔음 전형적인 백트래킹이라 크게 어려운 부분은 없었음
     public static int L, C;
     public static String[] alphabet;
     public static char[] vowel = new char[]{'a', 'e', 'i', 'o', 'u'};

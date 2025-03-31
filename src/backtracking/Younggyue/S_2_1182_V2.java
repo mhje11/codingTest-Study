@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class S_2_1182_V2 {
+    //어려웠던점 : 항상 반복문을 통해 재귀를 호출해야 할줄 알았는데 쓰는경우, 쓰지않는 경우도 고려해야한다는 점을 몰랐음
     public static int N, S;
     public static int[] arr;
     public static int count = 0;

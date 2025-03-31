@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class G_4_9663 {
+    //어려웠던점 : 백트래킹을 가능성을 생각하면서 진행해야 하는데 아무 생각없이 모든경우를 다 돌리고 검사하는 방향으로 생각
     public static int N;
     public static int[] arr;
     public static int count = 0;

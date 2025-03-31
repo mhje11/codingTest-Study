@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class S_1_14888 {
+    //어려웠던점 : 숫자를 선택하는게 아니라 연산자를 선택하는걸로 기저조건을 착각함
     public static int N;
     public static int[] num;
     public static int max = Integer.MIN_VALUE;

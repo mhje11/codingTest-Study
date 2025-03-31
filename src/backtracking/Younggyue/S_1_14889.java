@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class S_1_14889 {
+    // 어려웠던점 : 백트래킹에 대한 감을 잡아가는 과정이라 기저 조건만 생각하고 구현을 어떻게 해야할지가 어려웠음
     public static int N;
     public static boolean[] visited;
     public static int[][] arr;
