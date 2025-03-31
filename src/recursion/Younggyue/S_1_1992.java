@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 public class S_1_1992 {
     //어려웠던점 : 괄호의 처리를 어떻게 해야할지 몰라서 고생했음
     //원래는 탈출 조건마다 괄호를 닫으면 되는줄 알았는데 재귀전에 괄호를 열고 재귀를 호출후 괄호를 닫으면 되는거였음
+    //이 문제또한 시간초과 문제때문에 StringBuilder 를 이용해야함
     public static int N;
     public static int[][] arr;
     public static StringBuilder sb = new StringBuilder();
