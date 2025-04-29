@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class G_4_2295 {
+public class G_4_2295_V2 {
     // a + b + c = k 이지만 이분탐색을 위해 식을 변형
     // b + c = k - a
     // 이제 b + c 를 미리 저장해두고 k - a를 target 으로 이분탐색을 진행
@@ -41,7 +41,7 @@ public class G_4_2295 {
                 int k = arr[i];
                 int a = arr[j];
                 int target = k - a;
-                if (binarySearch(target)) {
+                if (Collections.binarySearch(list, target) >= 0) {
                     max = Math.max(max, k);
                 }
             }
@@ -49,20 +49,4 @@ public class G_4_2295 {
         System.out.println(max);
     }
 
-
-    public static boolean binarySearch(int target) {
-        int left = 0;
-        int right = list.size() - 1;
-        while (left <= right) {
-            int mid = (left + right) / 2;
-            if (target == list.get(mid)) {
-                return true;
-            } else if (list.get(mid) < target) {
-                left = mid + 1;
-            } else {
-                right = mid - 1;
-            }
-        }
-        return false;
-    }
 }
